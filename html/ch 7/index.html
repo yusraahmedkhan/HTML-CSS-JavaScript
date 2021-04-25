@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <fieldset>
+        <legend>Your Details:</legend>
+        <label>Name:
+            <input type="text" name="name"/></label><br>
+            <br>
+        <label>Email:
+            <input type="text" name="email">
+        </label>
+       
+    </fieldset>
+    <fieldset>
+        <legend>Your Review:</legend>
+        <label>
+            <p>How did you hear about us? <select name="search engine">
+            <option value="google">google</option>
+            <option value="educational Institute">ask</option>
+            <option value="workplace">Yahoo</option>    
+            </select> </p>
+        </label>
+        <p>Would you visit again?</p>
+
+    <input type="radio" name="visit" value="yes" />Yes
+    <input type="radio" name="visit" value="no" checked="checked"/>No
+    <input type="radio" name="visit" value="maybe"/>Maybe
+
+    <p>Comments:</p>
+    <textarea name="comments">Enter your comment...</textarea>
+
+    <p><input type="checkbox" checked="checked">Sign me up for email updates</p>
+    <button>Submit review</button>
+    </fieldset>
+
+    
+</body>
+</html>
